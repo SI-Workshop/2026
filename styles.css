@@ -417,10 +417,16 @@ h3 {
   border-top-color: var(--green);
 }
 
+.speaker-photo-link {
+  flex: 0 0 86px;
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+}
+
 .speaker-photo {
   display: inline-grid;
   place-items: center;
-  flex: 0 0 86px;
   width: 86px;
   height: 86px;
   border-radius: 50%;
