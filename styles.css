@@ -427,6 +427,7 @@ h3 {
 .speaker-photo {
   display: inline-grid;
   place-items: center;
+  flex: 0 0 86px;
   width: 86px;
   height: 86px;
   border-radius: 50%;
@@ -442,6 +443,16 @@ h3 {
 
 .speaker-photo-yue {
   object-position: center 18%;
+}
+
+.speaker-placeholder {
+  border: 1px dashed rgba(0, 59, 113, 0.28);
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.more-card {
+  border-top-style: dashed;
+  background: rgba(255, 255, 255, 0.76);
 }
 
 .speaker-card h3 {
