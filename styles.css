@@ -699,6 +699,30 @@ h3 {
   font-size: 18px;
 }
 
+.registration-action {
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.registration-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 48px;
+  margin-top: 10px;
+  padding: 12px 16px;
+  background: #fff;
+  color: var(--blue);
+  font-size: 16px;
+  font-weight: 840;
+  text-align: center;
+}
+
+.registration-button:hover {
+  transform: translateY(-1px);
+  background: #f4f7fb;
+}
+
 .site-footer {
   display: flex;
   justify-content: space-between;
