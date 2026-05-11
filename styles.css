@@ -710,6 +710,20 @@ h3 {
   font-size: 18px;
 }
 
+.registration-details .contact-list {
+  display: grid;
+  gap: 6px;
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+.registration-details .contact-list span {
+  display: block;
+  color: #fff;
+  text-transform: none;
+  overflow-wrap: anywhere;
+}
+
 .registration-action {
   background: rgba(255, 255, 255, 0.16);
 }
